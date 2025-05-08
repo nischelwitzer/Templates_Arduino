@@ -1,0 +1,30 @@
+
+#define COLOR_RED       255,   0,   0
+#define COLOR_GREEN       0, 255,   0
+#define COLOR_BLUE        0,   0, 255
+#define COLOR_YELLOW    255, 255,   0
+#define COLOR_CYAN         0, 255, 255
+#define COLOR_MAGENTA    255,   0, 255
+#define COLOR_ORANGE     255, 165,   0
+#define COLOR_PURPLE     128,   0, 128
+#define COLOR_PINK       255, 105, 180
+#define COLOR_WHITE      255, 255, 255
+#define COLOR_BLACK        0,   0,   0
+#define COLOR_GRAY       128, 128, 128
+#define COLOR_BROWN      165,  42,  42
+#define COLOR_LIME       191, 255,   0
+#define COLOR_SKYBLUE      0, 191, 255
+
+#define COLOR_PASTEL_RED         255, 105, 97
+#define COLOR_PASTEL_GREEN       119, 221, 119
+#define COLOR_PASTEL_BLUE        174, 198, 207
+#define COLOR_PASTEL_YELLOW      253, 253, 150
+#define COLOR_PASTEL_ORANGE      255, 179, 71
+#define COLOR_PASTEL_PURPLE      177, 156, 217
+#define COLOR_PASTEL_PINK        255, 209, 220
+#define COLOR_PASTEL_CYAN        160, 230, 255
+#define COLOR_PASTEL_MINT        189, 252, 201
+#define COLOR_PASTEL_LAVENDER    230, 190, 255
+#define COLOR_PASTEL_PEACH       255, 204, 170
+#define COLOR_PASTEL_TEAL        144, 216, 196
+#define COLOR_PASTEL_GRAY        200, 200, 200
