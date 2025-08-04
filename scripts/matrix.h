@@ -265,6 +265,35 @@ const uint32_t matrix_lcd[] = {
 		0x89eee000
 };
 
+const uint32_t matrix_clock_leer[] = {
+		0x0f010820,
+		0x42042042,
+		0x041080f0
+};
+
+const uint32_t matrix_clock_1[] = {
+		0x0f010824,
+		0x42442642,
+		0x041080f0
+};
+
+const uint32_t matrix_clock_2[] = {
+		0x0f010820,
+		0x42742442,
+		0x041080f0
+};
+
+const uint32_t matrix_clock_3[] = {
+		0x0f010820,
+		0x42642242,
+		0x241080f0
+};
+
+const uint32_t matrix_clock_4[] = {
+		0x0f010820,
+		0x42242e42,
+		0x041080f0
+};
 		
 void setup_symbols()
 {
@@ -272,11 +301,11 @@ void setup_symbols()
   setMatrix("ok",      (uint32_t*)matrix_ok);
   setMatrix("mqtt",    (uint32_t*)matrix_mqtt);
   setMatrix("net",     (uint32_t*)matrix_net);	  
-	setMatrix("init",    (uint32_t*)matrix_init);
+  setMatrix("init",    (uint32_t*)matrix_init);
   setMatrix("note1",   (uint32_t*)matrix_note1);
-  setMatrix("note2",   (uint32_t*)matrix_note2);
+  setMatrix("clock1",  (uint32_t*)matrix_clock_1);
   setMatrix("lcd",     (uint32_t*)matrix_lcd);
-	setMatrix("pin",     (uint32_t*)matrix_pin);
+  setMatrix("pin",     (uint32_t*)matrix_pin);
 }
 
 
