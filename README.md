@@ -53,6 +53,8 @@ void setup_serial() {
 Helper for Arduino R4 Matrix display. Different Symbols in Matrix.h can be used like
 *  show_matrix("init", 2000);
 
+For own icons use https://ledmatrix-editor.arduino.cc/ 
+
 ```
 void setup_matrix()
 {
