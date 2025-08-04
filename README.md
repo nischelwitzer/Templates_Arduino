@@ -1,4 +1,4 @@
-# Templates_Arduino
+# Templates_Arduino: Arduino Master Template 
 
 ## Master Setup 
 
